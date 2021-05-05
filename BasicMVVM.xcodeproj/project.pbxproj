@@ -13,7 +13,6 @@
 		29189BC226428C8500B37168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29189BC026428C8500B37168 /* Main.storyboard */; };
 		29189BC426428C8900B37168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29189BC326428C8900B37168 /* Assets.xcassets */; };
 		29189BC726428C8900B37168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29189BC526428C8900B37168 /* LaunchScreen.storyboard */; };
-		29189BD226428C8900B37168 /* BasicMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BD126428C8900B37168 /* BasicMVVMTests.swift */; };
 		29189BDD26428C8900B37168 /* BasicMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BDC26428C8900B37168 /* BasicMVVMUITests.swift */; };
 		29189BF626428F7700B37168 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BF526428F7700B37168 /* Post.swift */; };
 		29189BFF26428FCD00B37168 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BFE26428FCD00B37168 /* PostViewModel.swift */; };
@@ -23,6 +22,14 @@
 		29189C2326429BB400B37168 /* PostsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C2226429BB400B37168 /* PostsDataSource.swift */; };
 		29189C3126429FE400B37168 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C2F26429FE400B37168 /* PostTableViewCell.swift */; };
 		29189C3226429FE400B37168 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29189C3026429FE400B37168 /* PostTableViewCell.xib */; };
+		29189C3D2642A5D100B37168 /* PostsDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C3C2642A5D100B37168 /* PostsDataSourceTests.swift */; };
+		29189C422642ABA400B37168 /* APIserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C412642ABA400B37168 /* APIserviceTests.swift */; };
+		29189C472642AEAB00B37168 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 29189C462642AEAB00B37168 /* sample.json */; };
+		29189C502642AEFC00B37168 /* FileManager-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C4F2642AEFC00B37168 /* FileManager-Ext.swift */; };
+		29189C542642B09000B37168 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 29189C462642AEAB00B37168 /* sample.json */; };
+		29189C592642B59700B37168 /* brokensample.json in Resources */ = {isa = PBXBuildFile; fileRef = 29189C582642B59700B37168 /* brokensample.json */; };
+		29189C602642B6E900B37168 /* brokensample.json in Resources */ = {isa = PBXBuildFile; fileRef = 29189C582642B59700B37168 /* brokensample.json */; };
+		29189C702642BA1000B37168 /* FileManagerExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C6F2642BA1000B37168 /* FileManagerExtTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +59,6 @@
 		29189BC626428C8900B37168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29189BC826428C8900B37168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29189BCD26428C8900B37168 /* BasicMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29189BD126428C8900B37168 /* BasicMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMTests.swift; sourceTree = "<group>"; };
 		29189BD326428C8900B37168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29189BD826428C8900B37168 /* BasicMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29189BDC26428C8900B37168 /* BasicMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMUITests.swift; sourceTree = "<group>"; };
@@ -65,6 +71,12 @@
 		29189C2226429BB400B37168 /* PostsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataSource.swift; sourceTree = "<group>"; };
 		29189C2F26429FE400B37168 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		29189C3026429FE400B37168 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		29189C3C2642A5D100B37168 /* PostsDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataSourceTests.swift; sourceTree = "<group>"; };
+		29189C412642ABA400B37168 /* APIserviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIserviceTests.swift; sourceTree = "<group>"; };
+		29189C462642AEAB00B37168 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		29189C4F2642AEFC00B37168 /* FileManager-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-Ext.swift"; sourceTree = "<group>"; };
+		29189C582642B59700B37168 /* brokensample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brokensample.json; sourceTree = "<group>"; };
+		29189C6F2642BA1000B37168 /* FileManagerExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,7 @@
 				29189BF026428E8700B37168 /* Controllers */,
 				29189C1C26429B3B00B37168 /* DataSources */,
 				29189BED26428E2A00B37168 /* Delegates */,
+				29189C4E2642AEE700B37168 /* Extensions */,
 				29189BF426428F5800B37168 /* Models */,
 				29189BFD26428FAF00B37168 /* ViewModels */,
 				29189BEE26428E6900B37168 /* Views */,
@@ -131,8 +144,12 @@
 		29189BD026428C8900B37168 /* BasicMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				29189BD126428C8900B37168 /* BasicMVVMTests.swift */,
 				29189BD326428C8900B37168 /* Info.plist */,
+				29189C3C2642A5D100B37168 /* PostsDataSourceTests.swift */,
+				29189C412642ABA400B37168 /* APIserviceTests.swift */,
+				29189C462642AEAB00B37168 /* sample.json */,
+				29189C582642B59700B37168 /* brokensample.json */,
+				29189C6F2642BA1000B37168 /* FileManagerExtTests.swift */,
 			);
 			path = BasicMVVMTests;
 			sourceTree = "<group>";
@@ -216,6 +233,14 @@
 			path = DataSources;
 			sourceTree = "<group>";
 		};
+		29189C4E2642AEE700B37168 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29189C4F2642AEFC00B37168 /* FileManager-Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,6 +311,7 @@
 					};
 					29189BCC26428C8900B37168 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 29189BB626428C8500B37168;
 					};
 					29189BD726428C8900B37168 = {
@@ -319,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29189C602642B6E900B37168 /* brokensample.json in Resources */,
+				29189C542642B09000B37168 /* sample.json in Resources */,
 				29189BC726428C8900B37168 /* LaunchScreen.storyboard in Resources */,
 				29189BC426428C8900B37168 /* Assets.xcassets in Resources */,
 				29189BC226428C8500B37168 /* Main.storyboard in Resources */,
@@ -330,6 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29189C592642B59700B37168 /* brokensample.json in Resources */,
+				29189C472642AEAB00B37168 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +381,7 @@
 				29189BFF26428FCD00B37168 /* PostViewModel.swift in Sources */,
 				29189BBF26428C8500B37168 /* ViewController.swift in Sources */,
 				29189C2326429BB400B37168 /* PostsDataSource.swift in Sources */,
+				29189C502642AEFC00B37168 /* FileManager-Ext.swift in Sources */,
 				29189C052642913100B37168 /* APIservice.swift in Sources */,
 				29189BBB26428C8500B37168 /* AppDelegate.swift in Sources */,
 				29189BBD26428C8500B37168 /* SceneDelegate.swift in Sources */,
@@ -364,7 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29189BD226428C8900B37168 /* BasicMVVMTests.swift in Sources */,
+				29189C422642ABA400B37168 /* APIserviceTests.swift in Sources */,
+				29189C3D2642A5D100B37168 /* PostsDataSourceTests.swift in Sources */,
+				29189C702642BA1000B37168 /* FileManagerExtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +603,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T79XLB42B4;
 				INFOPLIST_FILE = BasicMVVMTests/Info.plist;
@@ -581,6 +615,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vorona.artjoms.BasicMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicMVVM.app/BasicMVVM";
@@ -592,6 +627,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T79XLB42B4;
 				INFOPLIST_FILE = BasicMVVMTests/Info.plist;
