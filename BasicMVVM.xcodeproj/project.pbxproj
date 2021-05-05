@@ -15,6 +15,14 @@
 		29189BC726428C8900B37168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29189BC526428C8900B37168 /* LaunchScreen.storyboard */; };
 		29189BD226428C8900B37168 /* BasicMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BD126428C8900B37168 /* BasicMVVMTests.swift */; };
 		29189BDD26428C8900B37168 /* BasicMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BDC26428C8900B37168 /* BasicMVVMUITests.swift */; };
+		29189BF626428F7700B37168 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BF526428F7700B37168 /* Post.swift */; };
+		29189BFF26428FCD00B37168 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189BFE26428FCD00B37168 /* PostViewModel.swift */; };
+		29189C052642913100B37168 /* APIservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C042642913100B37168 /* APIservice.swift */; };
+		29189C18264299DD00B37168 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C17264299DD00B37168 /* DynamicValue.swift */; };
+		29189C1E26429B5100B37168 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C1D26429B5100B37168 /* GenericDataSource.swift */; };
+		29189C2326429BB400B37168 /* PostsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C2226429BB400B37168 /* PostsDataSource.swift */; };
+		29189C3126429FE400B37168 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29189C2F26429FE400B37168 /* PostTableViewCell.swift */; };
+		29189C3226429FE400B37168 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29189C3026429FE400B37168 /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		29189BD826428C8900B37168 /* BasicMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29189BDC26428C8900B37168 /* BasicMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMVVMUITests.swift; sourceTree = "<group>"; };
 		29189BDE26428C8900B37168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29189BF526428F7700B37168 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		29189BFE26428FCD00B37168 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		29189C042642913100B37168 /* APIservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIservice.swift; sourceTree = "<group>"; };
+		29189C17264299DD00B37168 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		29189C1D26429B5100B37168 /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
+		29189C2226429BB400B37168 /* PostsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDataSource.swift; sourceTree = "<group>"; };
+		29189C2F26429FE400B37168 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		29189C3026429FE400B37168 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,13 @@
 		29189BB926428C8500B37168 /* BasicMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				29189C032642911E00B37168 /* API */,
 				29189BEF26428E7E00B37168 /* Assets */,
 				29189BF026428E8700B37168 /* Controllers */,
+				29189C1C26429B3B00B37168 /* DataSources */,
 				29189BED26428E2A00B37168 /* Delegates */,
+				29189BF426428F5800B37168 /* Models */,
+				29189BFD26428FAF00B37168 /* ViewModels */,
 				29189BEE26428E6900B37168 /* Views */,
 				29189BC826428C8900B37168 /* Info.plist */,
 			);
@@ -158,6 +178,42 @@
 				29189BBE26428C8500B37168 /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		29189BF426428F5800B37168 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29189BF526428F7700B37168 /* Post.swift */,
+				29189C17264299DD00B37168 /* DynamicValue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29189BFD26428FAF00B37168 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				29189BFE26428FCD00B37168 /* PostViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		29189C032642911E00B37168 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				29189C042642913100B37168 /* APIservice.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		29189C1C26429B3B00B37168 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				29189C1D26429B5100B37168 /* GenericDataSource.swift */,
+				29189C2226429BB400B37168 /* PostsDataSource.swift */,
+				29189C2F26429FE400B37168 /* PostTableViewCell.swift */,
+				29189C3026429FE400B37168 /* PostTableViewCell.xib */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +322,7 @@
 				29189BC726428C8900B37168 /* LaunchScreen.storyboard in Resources */,
 				29189BC426428C8900B37168 /* Assets.xcassets in Resources */,
 				29189BC226428C8500B37168 /* Main.storyboard in Resources */,
+				29189C3226429FE400B37168 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29189C3126429FE400B37168 /* PostTableViewCell.swift in Sources */,
+				29189BFF26428FCD00B37168 /* PostViewModel.swift in Sources */,
 				29189BBF26428C8500B37168 /* ViewController.swift in Sources */,
+				29189C2326429BB400B37168 /* PostsDataSource.swift in Sources */,
+				29189C052642913100B37168 /* APIservice.swift in Sources */,
 				29189BBB26428C8500B37168 /* AppDelegate.swift in Sources */,
 				29189BBD26428C8500B37168 /* SceneDelegate.swift in Sources */,
+				29189BF626428F7700B37168 /* Post.swift in Sources */,
+				29189C18264299DD00B37168 /* DynamicValue.swift in Sources */,
+				29189C1E26429B5100B37168 /* GenericDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
